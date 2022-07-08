@@ -38,7 +38,7 @@ Você deve criar as telas com base no design [deste link](https://www.figma.com/
 
 Recomendamos que você crie dois repositórios separados, um para o código front-end e outro para o back-end. Mas caso você tenha familiaridade com monorepos a entrega também pode ser feita dessa forma.
 
-Crie os repositórios **antes de começar o desenvolvimento**, realize nosso teste fazendo seus commits normalmente, e ao final do teste, é só compartilhar o repositório + seu currículo conosco através do email: <a href="mailto:vagas@sevn.technology">vagas@sevn.technology</a>!
+Crie os repositórios **antes de começar o desenvolvimento**, realize nosso teste fazendo seus commits normalmente, e ao final do teste, é só compartilhar o repositório + seu currículo (caso ainda não nos tenha enviado) através do email: <a href="mailto:vagas@sevn.technology">vagas@sevn.technology</a>!
 
 ## Bora pro teste!
 
