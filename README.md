@@ -30,7 +30,7 @@ Bem vindo(a) ao teste full stack da SEVN!
 
 O teste consiste em:
 1. Criar um projeto em [**Next.js**](https://nextjs.org/) ou [**SvelteKit**](https://kit.svelte.dev/) com duas telas do **SEVN NEWS**, um portal de notícias hipotético.
-2. Criar uma API RESTful Node.js ([**Express.js**](https://expressjs.com/pt-br/) ou [**Koa**](https://koajs.com/)) que expõe os 3 endpoints que esse portal consumirá.
+2. Criar uma API RESTful Node.js **com dados mock** (não precisa se preocupar com banco de dados) ([**Express.js**](https://expressjs.com/pt-br/) ou [**Koa**](https://koajs.com/)) que expõe os 3 endpoints que esse portal consumirá.
 
 Você deve criar as telas com base no design [deste link](https://www.figma.com/file/uCtGlzgDqEvSYvqffM6ARJ/Teste-SEVN?node-id=1%3A2).
 
@@ -55,6 +55,7 @@ Atentar para os seguintes itens na API:
 - Usar endpoints com nomenclatura REST que faça sentido (e.g.: `/recurso/:id` ao invés de `/recurso-:id`, etc.);
 - Dados devem ser retornados em JSON.
 - Apenas endpoints GET.
+- Dados JSON mockados (ou seja, pode escrever direto na no código da API, sem precisar usar banco de dados).
 - **Não utilizar** GraphQL.
 
 #### APIs - Endpoints
@@ -86,6 +87,7 @@ Atentar para os seguintes itens na API:
 - Que você crie componentes reutilizáveis onde convém;
 - Que seu repositório tenha commits com mensagens legíveis e que façam sentido;
 - Uso de Flexbox ou Grid Layout.
+- Que os dados sejam mockados, para manter o teste simples, não é necessário utilizar banco de dados.
 
 **Lembre-se:** Muitos commits detalhando as atividades são melhores que poucos commits com mensagens genéricas e muito código.
 
