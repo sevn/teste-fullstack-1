@@ -29,8 +29,8 @@
 Bem vindo(a) ao teste full stack da SEVN!
 
 O teste consiste em:
-1. Criar um projeto em [**Next.js**](https://nextjs.org/) ou [**SvelteKit**](https://kit.svelte.dev/) com duas telas do **SEVN NEWS**, um portal de notícias hipotético.
-2. Criar uma API RESTful Node.js **com dados mock** (não precisa se preocupar com banco de dados) ([**Express.js**](https://expressjs.com/pt-br/) ou [**Koa**](https://koajs.com/)) que expõe os 3 endpoints que esse portal consumirá.
+1. Criar um projeto frontend com duas telas do **SEVN NEWS**, um portal de notícias hipotético.
+2. Criar uma API RESTful Node.js **com dados mock** (não precisa se preocupar com banco de dados) que expõe os 3 endpoints que esse portal consumirá.
 
 Você deve criar as telas com base no design [deste link](https://www.figma.com/file/uCtGlzgDqEvSYvqffM6ARJ/Teste-SEVN?node-id=1%3A2).
 
@@ -56,7 +56,6 @@ Atentar para os seguintes itens na API:
 - Dados devem ser retornados em JSON.
 - Apenas endpoints GET.
 - Dados JSON mockados (ou seja, pode escrever direto na no código da API, sem precisar usar banco de dados).
-- **Não utilizar** GraphQL.
 
 #### APIs - Endpoints
 
@@ -81,38 +80,31 @@ Atentar para os seguintes itens na API:
 
 ## O que esperamos
 - Que o layout seja responsivo *(disponibilizamos apenas a versão desktop, queremos ver sua capacidade de evitar que o layout "quebre" em tela menores)*;
-- Que o front-end seja feito em **Next.js** ou **SvelteKit**;
-- Que o back-end seja feito em **Express.js** ou **Koa** (sem outros frameworks back-end como Nest.js e afins);
+- Que o front-end seja feito com alguma tecnologia moderna (React, Svelte, Astro, Vue, SvelteKit, Next.js, Remix, etc).
+- Que o back-end seja feito em JavaScript ou TypeScript rodando em Node.js (Ex.: Hono, Fastify, Express.js, etc);
 - Que o código seja limpo e legível;
 - Que você crie componentes reutilizáveis onde convém;
-- Que seu repositório tenha commits com mensagens legíveis e que façam sentido;
+- Que seu repositório tenha commits com mensagens **legíveis e que façam sentido**;
 - Uso de Flexbox ou Grid Layout.
 - Que os dados sejam mockados, para manter o teste simples, não é necessário utilizar banco de dados.
 
 **Lembre-se:** Muitos commits detalhando as atividades são melhores que poucos commits com mensagens genéricas e muito código.
 
 ## O que não esperamos
-- Que sejam usados frameworks CSS como Bootstrap, Material.css, Tailwind CSS e afins.
-- Que o front-end seja feito em qualquer framework que não seja **Next.js** ou **SvelteKit**.
-- Que o back-end seja feito em qualquer biblioteca/framework que não sejam **Express.js** ou **Koa**.
+- Que sejam usados frameworks CSS como Bootstrap, Material.css, Tailwind e afins.
+- que não seja utilizadas bibliotecas CSS-in-JS ou derivadas.
 - Que você entregue um repositório apenas com um commit "gigante" com todo o código. Também gostamos de ler commits! :-)
 
 ## Outras dúvidas
 
 **Posso utilizar SASS?**<br>
-R: SASS e PostCSS estão liberados.
+R: SASS, LESS e PostCSS estão liberados.
 
 **Posso utilizar CSS-in-JS?**<br>
 R: Nossos projetos não utilizam CSS-in-JS. Recomendamos que seu teste seja feito utilizando CSS/SASS/PostCSS.
 
 **Por que não posso usar Bootstrap/Tailwind CSS?**<br>
 Porque nosso objetivo, dentre outras coisas, é avaliar sua capacidade de construir um layout com seus próprios conhecimentos em CSS. O uso de frameworks pode atrapalhar nisso, e nem todo projeto utiliza esses frameworks.
-
-**Posso usar outro framework?**<br>
-Não, apenas os descritos nesse teste.
-
-**Por que não posso usar GraphQL?**
-Nosso objetivo é encontrar profissionais que sejam capazes de construir APIs RESTful de qualidade. Um teste feito em GraphQL cairia fora do escopo da nossa empresa, e do profissional que buscamos.
 
 **Como eu lido com a responsividade se não tem layout mobile?**<br>
 Nós buscamos uma responsividade básica, e esse é um layout simples, então estamos curiosos para ver como você faria para tornar as duas telas responsivas!
